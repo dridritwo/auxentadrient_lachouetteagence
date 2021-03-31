@@ -526,7 +526,7 @@ button {
 }
 
 .form-control {
-    border-color: rgba(0, 0, 0, .1);
+    border-color: rgba(0, 0, 0, .8);
     box-shadow: none;
 }
 
@@ -697,7 +697,7 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 17px;
 }
 
 .tight-width-whitespace {
@@ -1041,6 +1041,56 @@ h4 {
         width: 180px;
         height: 320px;
     }
+}
+
+.page2-hero {
+    font-size: 30px;
+    font-weight: bold;
+    
+}
+
+.page2-hero-p {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.on-top {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    z-index: 10;
+}
+.on-back {
+    z-index: -10;
+}
+
+.flex-vertical {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.flex-horizontal {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.relative {
+    position: relative;
+}
+
+.h330 {
+    height: 330px;
+}
+
+.form-group {
+    margin-bottom: 10px;
+    
 }
 
 @media (max-width: 400px) {
